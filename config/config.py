@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "e4f8bc44866a47b0a36b225597452f84")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "436b4d162dea4f8b93332d227adcc9ad")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQAzbTb56869Z238mppTmqqJFmd3Ezd3Cc9juXm8l7_uGQORUi4VwHfhirM2mQoHonJQ-Gdhcpw9UyJcs7VX5fz3loBJ_r6AQNVNr_gtrw5WgQPNctCdAGYKiETBGMPhb9wM82Ae_ZiF4HJDbhItZCDBsMoazLsUb_wYQsSUDuxM06DqVTSc8GlygeH8LXxOTo_9aOLhau5xDyfe96ic7m13ipe6LW2R1l7S33aCzQGRg_HGZzWoxR1G804EP7xT9556VPOuZBZk97W-Bq8YTGDA4BsALO6Reg0RC4e6u-TwZVp82uyezZmNem7KcnzHbEAYeG45ToVtNuWeJVVr8ApIAAAAATQkaP8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
