@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", 4665778))
 API_HASH = getenv("API_HASH", '10e3ed833b0d09699973420d45359409')
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", '5413491390:AAHRvlHSMWBmsZEC86bbVJF5H53WkXs_r1U')
+BOT_TOKEN = getenv("BOT_TOKEN", '5493778479:AAGIEDn94RS-1Fmd-c8d1AQwjzqmYHj3wnI')
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", 'mongodb+srv://ok:lol@cluster1.udhzs7r.mongodb.net/?retryWrites=true&w=majority')
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Unknown-San/LoidApoorva",
+    "https://github.com/Unknown-San/Loid",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
